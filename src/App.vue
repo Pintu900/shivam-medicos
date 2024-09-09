@@ -7,7 +7,6 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import BodyComponent from "./components/Center.vue";
 import ComingSoon from "./components/Comingsoon.vue";
 export default {
   name: "App",
