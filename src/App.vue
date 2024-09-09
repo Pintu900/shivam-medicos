@@ -5,13 +5,11 @@
 </template>
 
 <script>
-import HelloWorldVue from "./components/HelloWorld.vue";
 import Navbar from "./components/Navbar.vue";
 import BodyComponent from "./components/Center.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld: HelloWorldVue,
     Navbar,
     BodyComponent,
   },
