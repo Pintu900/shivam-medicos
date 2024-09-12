@@ -2,7 +2,9 @@
   <Navbar />
   <ComingSoon />
   <!--  <BodyComponent /> -->
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <div class="test">
+    <img alt="Vue logo" src="./assets/logo1.png" />
+  </div>
 </template>
 
 <script>
@@ -24,5 +26,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.test img {
+  height: 100px; /* Adjust the height as needed */
+  width: auto;
 }
 </style>
