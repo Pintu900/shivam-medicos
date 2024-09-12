@@ -1,10 +1,10 @@
 <template>
   <Navbar />
-  <ComingSoon />
-  <!--  <BodyComponent /> -->
   <div class="test">
     <img alt="Vue logo" src="./assets/logo1.png" />
   </div>
+  <ComingSoon />
+  <!--  <BodyComponent /> -->
 </template>
 
 <script>
@@ -28,6 +28,7 @@ export default {
   color: #2c3e50;
 }
 .test img {
+  margin: 10px;
   height: 100px; /* Adjust the height as needed */
   width: auto;
 }
